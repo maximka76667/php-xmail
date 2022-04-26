@@ -1,0 +1,38 @@
+.alta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.alta__heading {
+  text-align: center;
+}
+
+
+.alta__form {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 70px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 1px #000;
+  box-sizing: border-box;
+}
+
+.alta__input {
+  width: 100%;
+  height: 16px;
+  line-height: 1.2;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  margin-bottom: 25px;
+}
+
+.alta__submit-button {
+  margin-top: 20px;
+  height: 50px;
+}
